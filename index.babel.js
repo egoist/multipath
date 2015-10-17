@@ -4,7 +4,7 @@ import path from 'path'
 class MultiPath {
   set (name, dir) {
     this[name] = (file = '') => {
-      return root(path.join(dir, file), 2)
+      return path.join(root(dir, 4), file)
     }
   }
 }
