@@ -6,6 +6,7 @@ class MultiPath {
     this[name] = (file = '') => {
       return path.join(root(dir, 4), file)
     }
+    return this
   }
 }
 
