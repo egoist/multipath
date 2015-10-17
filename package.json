@@ -1,0 +1,18 @@
+{
+  "name": "multipath",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.babel.js -o index.js"
+  },
+  "author": "EGOIST",
+  "license": "MIT",
+  "dependencies": {
+    "node-root": "0.0.21"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
